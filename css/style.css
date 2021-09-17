@@ -55,17 +55,7 @@ section h5, section h4 {
     /*padding: 10px;*/
     margin: 0;
 }
-@media screen and (max-width: 768px) {
-    .info{
-        flex-direction: column;
-        text-align: center;
-    }
 
-    section, footer {
-        width: 100%;
-        margin: auto;
-    }
-}
 .social-info{
     display: flex;
     flex-direction: column;
@@ -191,4 +181,20 @@ footer{
 
 .copyright {
     font-size: .85rem;
+}
+
+@media screen and (max-width: 768px) {
+    .info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section, footer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .images{
+        flex-direction: column;
+    }
 }
