@@ -1,0 +1,194 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Raleway:wght@200;400;600&display=swap');
+
+/* Universal Style */
+* {
+    box-sizing: border-box;
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+/*Body Style*/
+body {
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+
+section, footer {
+    width: 70%;
+    margin: auto;
+}
+
+section h2, section h1 {
+    margin-bottom: 0;
+}
+
+section h5, section h4 {
+    margin-top: 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    object-position: 70% 15%;
+}
+
+.name, h4{
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    /*padding: 10px;*/
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    .info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section, footer {
+        width: 100%;
+        margin: auto;
+    }
+}
+.social-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-info a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+}
+
+.about-section .title, h5{
+    text-align: center;
+}
+
+.skill-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill__bar{
+    height: 10px;
+    border-radius: 0.25rem;
+    background-color: hsl(0, 92%, 85%);
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skill__title{
+     flex-basis: 80%;
+}
+.skill-html {
+    display: block;
+    background-color: red;
+    width: 90%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+.skill-css {
+    display: block;
+    background-color: red;
+    width: 85%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+.skill-javascript {
+    display: block;
+    background-color: red;
+    width: 80%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+.skill-react {
+    display: block;
+    background-color: red;
+    width: 50%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+.skill-figma {
+    display: block;
+    background-color: red;
+    width: 50%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+.skill-git {
+    display: block;
+    background-color: red;
+    width: 70%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+.skill-bootstrap {
+    display: block;
+    background-color: red;
+    width: 30%;
+    height: 10px;
+    border-radius: 0.25rem;
+}
+
+.team-section .title {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.images div {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.images p, .images h3{
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer{
+    background: hsl(0, 92%, 85%);
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+}
+
+.copyright {
+    font-size: .85rem;
+}

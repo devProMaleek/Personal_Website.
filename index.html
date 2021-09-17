@@ -11,12 +11,8 @@
     <meta content="Abdulmalik, devProMaleek, Adebayo, Data Science, Data Scientist, Frontend, Backend" name="keywords">
     <meta content="Personal Website" name="description">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <!------------------------------TYPING CDN -------------------------------------->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <!-------------------------------- UNICONS -------------------------------------->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <!-------------------------------- SWIPER CSS ------------------------------------->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-------------------------------- FONT AWESOME CDN -------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-------------------------------- CSS -------------------------------------->
     <link rel="stylesheet" href="css/style.css">
 
@@ -26,9 +22,11 @@
 
 <!--Image and Contact section-->
 <section class="contact-section">
-    <img src="" alt="Profile pic">
+    <div class="img">
+        <img src="img/Profile%20pic.jpeg" alt="Profile pic" class="profile-pic">
+    </div>
     <h1 class="name">Abdulmalik Adebayo</h1>
-    <h3 class="title">Jnr. Frontend developer</h3>
+    <h4 class="title">Jnr. Frontend developer</h4>
     <p>Front-end web developer with high vision and forward-thinking, innovative use of technology,
         effective problem-solving skills, outstanding interpersonal skills, and the ability to work independently.
         Abdulmalik is proficient in a range of computing systems, languages and associated tools. Abdulmalik is a
@@ -38,32 +36,34 @@
 <!--    Contact and Social Information-->
     <div class="info">
         <div class="contact-info">
-            <p>abdulmalikadebayo07@gmail.com</p>
-            <p>09039561875</p>
-            <p>Lagos, Nigeria</p>
+            <p><i class="fas fa-envelope"></i>  abdulmalikadebayo07@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>  09039561875</p>
+            <p><i class="fas fa-map-marker-alt"></i>  Lagos, Nigeria</p>
         </div>
         <div class="social-info">
-            <a href="https://www.devpromaleekfolio.netlify.app" target="_blank">Personal Website</a>
-            <a href="https://www.github.com/devpromaleek" target="_blank">Github Profile</a>
-            <a href="https://www.linkedin.com/in/devpromaleek" target="_blank">LinkedIn Profile</a>
+            <a href="https://www.devpromaleekfolio.netlify.app" target="_blank"><i class="fas fa-at"></i>  Personal Website</a>
+            <a href="https://www.github.com/devpromaleek" target="_blank"><i class="fab fa-github"></i>  Github Profile</a>
+            <a href="https://www.linkedin.com/in/devpromaleek" target="_blank"><i class="fab fa-linkedin"></i>  LinkedIn Profile</a>
         </div>
     </div>
 </section>
 <!--About and Skill Section-->
 <section class="about-section">
     <h2 class="title">About Me</h2>
-    <p>my name is Adebayo Abdulmalik, but people knows me as devProMaleek. I am a self-taught frontend developer.
+    <h5 class="sub-info">My Introduction and Skills</h5>
+    <p>My name is Adebayo Abdulmalik, but people knows me as devProMaleek. I am a self-taught frontend developer.
         I also have knowledge in Data Science, Machine learning, Backend development as well as UI/UX design.
         I'm proficient in HTML, CSS, JavaScript, Python, PHP, MySQL and Figma. I love contributing and collaborating on
-        existing codes, and working together on how to improve it. I'm passionate about solving real life problems</p>
-
+        existing codes, and working together on how to improve it. I'm passionate about solving real life problems.</p>
+    <h2 class="title">My Skills</h2>
+    <h5 class="sub-info">My Technical Skills</h5>
     <div class="skill-segment">
         <div class="skill-data">
             <div class="skill__title">
                 <h3 class="skill-name">HTML</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 90%
+                <span class="skill-html"></span>
             </div>
         </div>
 
@@ -72,7 +72,7 @@
                 <h3 class="skill-name">CSS</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 80%
+                <span class="skill-css"></span>
             </div>
         </div>
 
@@ -81,7 +81,7 @@
                 <h3 class="skill-name">JavaScript</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 60%
+                <span class="skill-javascript"></span>
             </div>
         </div>
 
@@ -90,7 +90,7 @@
                 <h3 class="skill-name">React</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 45%
+                <span class="skill-react"></span>
             </div>
         </div>
 
@@ -99,7 +99,7 @@
                 <h3 class="skill-name">Figma</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 50%
+                <span class="skill-figma"></span>
             </div>
         </div>
 
@@ -108,7 +108,7 @@
                 <h3 class="skill-name">Git</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 70%
+                <span class="skill-git"></span>
             </div>
         </div>
 
@@ -117,13 +117,49 @@
                 <h3 class="skill-name">Bootstrap</h3>
             </div>
             <div class="skill__bar">
-                <span class="skill-html"></span> 30%
+                <span class="skill-bootstrap"></span>
             </div>
         </div>
     </div>
 </section>
 
+<!--Team Section-->
+<section class="team-section">
+    <h2 class="title">My Team</h2>
+    <h5 class="sub-info">Those i brain-storm with</h5>
+    <div class="images">
+        <div>
+            <img src="img/Abolaji_550c544523.jpg" alt="Abdurrahman" class="abolaji">
+            <h3>Abolaji Abdulrahman</h3>
+            <p>Jnr React Developer</p>
+        </div>
+        <div>
+            <img src="img/thanni_1044f78c12.jpg" alt="Thanni" class="Thanni">
+            <h3>Thanni Abdulrahman</h3>
+            <p>UI/UX Designer</p>
+        </div>
+        <div>
+            <img src="img/ameer_d6d4564714.jpg" alt="Muqaddas" class="sodiq">
+            <h3>Idowu Sodiq</h3>
+            <p>Jnr Product Manager</p>
+        </div>
+
+    </div>
 
 
+</section>
+
+<!--Footer section-->
+<footer>
+    <p>Find me on social media.</p>
+    <div class="social">
+        <a href="https://facebook.com/adebayo.adeola.99" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://instagram.com/devpromaleek" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.github.com/devProMaleek" target="_blank"><i class="fab fa-github w3-hover-opacity"></i></a>
+        <a href="https://www.twitter.com/devpromaleek" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/abdulmalik-adebayo-3a0608191" target="_blank"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+    </div>
+    <p class="copyright">&copy; 2021 devProMaleek</p>
+</footer>
 </body>
 </html>
